@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,53 +13,34 @@
     <!-- fuentes -->
     <!-- javascript -->
 </head>
-<body>
-<div class="row">
-    <div class="column-1">
-        <p>1</p>
-    </div>
-</div>
-<div class="row">
-    <div class="column-2">
-        <p>2</p>
-    </div>
-    <div class="column-2">
-        <p>3</p>
-    </div>
-</div>
-<div class="row">
-    <div class="column-4">
-        <p>4</p>
-    </div>
-    <div class="column-4">
-        <p>5</p>
-    </div>
-    <div class="column-4">
-        <p>6</p>
-    </div>
-    <div class="column-4">
-        <p>7</p>
-    </div>
-</div>
-<div class="row">
-    <div class="column-2">
-        <p>8</p>
-    </div>
-    <div class="column-2">
-        <p>9</p>
-    </div>
-</div>
-<div class="row">
-    <div class="column-3">
-        <p>10</p>
-    </div>
-    <div class="column-3">
-        <p>11</p>
-    </div>
-    <div class="column-3">
-        <p>12</p>
-    </div>
-</div>
 
+<body class="flex">
+    <div class="row styles-div">
+        <div class="column-1">
+            <p>Calculador de propinas</p>
+        </div>
+        <div class="column-1">
+            <p>Total de la cuenta</p>
+            <input id="valor1" type="number" placeholder="inserte un valor...">
+        </div>
+        <div class="column-1">
+            <p>¿Que tal el servicio?</p>
+            <select name="" id="Operacion">
+                <option value="sumar">0% Fatal</option>
+                <option value="restar">30% Mal</option>
+                <option value="multiplicar">50% Ni bien ni mal</option>
+                <option value="dividir">70% Bien</option>
+                <option value="dividir">100% Perfecto</option>
+            </select>
+        </div>
+        <div class="column-1">
+            <p>¿Cuantas personas van a pagar?</p>
+            <input class="color-submit " type="submit" value="Calcular" onclick="Calcular()">
+        </div>
+        <div class="column-1">
+            <p></p>
+        </div>
+    </div>
 </body>
+
 </html>
