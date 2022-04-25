@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Neucha&display=swap');
 html {
     font-size: 16px;
 }
@@ -10,7 +11,8 @@ p {
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 20px;
+    text-align: center;
 }
 
 h2 {
@@ -41,12 +43,13 @@ h6 {
 
 * {
     box-sizing: border-box;
+    font-family: 'Neucha', cursive;
 }
 
 body {
     margin: 0;
-    height: 100%;
-    width: 100%;
+    height: 100vh;
+    width: 100vw;
 }
 
 
@@ -106,7 +109,21 @@ body {
 
 .styles-div {
     border: 1px solid black;
-    padding: 2%;
+    border-radius: 15px;
+    padding: 3%;
+}
+
+input,
+select {
+    width: 100%;
+}
+
+.botones {
+    width: 48%;
+}
+
+#resultado {
+    text-align: center;
 }
 
 
